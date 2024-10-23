@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursos - Beleza Aê</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .curso {
+        display: flex;
+        margin-bottom: 40px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        gap: 20px;
+        transition: transform 0.3s ease;
+      }
+
+      .curso img {
+        width: 200px;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+
+      .curso:hover {
+        transform: scale(1.05);
+      }
+
+      .curso-content {
+        flex: 1;
+      }
+
+      .curso-content h3 {
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .curso-content p {
+        color: #333;
+      }
+
+      footer {
+        background: #c5c5b2;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img
+          src="arquivos/imagens/logo.png"
+          alt="Logo Beleza Aê"
+          style="vertical-align: middle"
+        />
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="instrutores.html">Instrutores</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Cursos Oferecidos</h2>
+
+        <!-- Curso Cabelo -->
+        <section class="curso">
+          <img
+            src="arquivos/imagens/cursos-corte-de-cabelo.png"
+            alt="Curso de Cabelo"
+          />
+          <div class="curso-content">
+            <h3>Cabelo</h3>
+            <p>
+              Curso completo de corte, coloração, tratamentos e penteados. Ideal
+              para quem deseja dominar as técnicas essenciais de cuidados
+              capilares.
+            </p>
+          </div>
+        </section>
+
+        <!-- Curso Barba -->
+        <section class="curso">
+          <img
+            src="arquivos/imagens/curso-corte-de-barba.png"
+            alt="Curso de Barba"
+          />
+          <div class="curso-content">
+            <h3>Barba</h3>
+            <p>
+              Aprenda técnicas de barbearia, cuidados com a pele e design de
+              barba para diferentes estilos e formatos de rosto.
+            </p>
+          </div>
+        </section>
+
+        <!-- Curso Olhar -->
+        <section class="curso">
+          <img
+            src="arquivos/imagens/curso-de-olhar.png"
+            alt="Curso de Design de Olhar"
+          />
+          <div class="curso-content">
+            <h3>Olhar</h3>
+            <p>
+              Técnicas avançadas para design de sobrancelhas, alongamento de
+              cílios e aplicação de tintura e henna para realçar a beleza do
+              olhar.
+            </p>
+          </div>
+        </section>
+
+        <!-- Curso Maquiagem -->
+        <section class="curso">
+          <img
+            src="arquivos/imagens/curso-de-maquiagem.png"
+            alt="Curso de Maquiagem"
+          />
+          <div class="curso-content">
+            <h3>Maquiagem</h3>
+            <p>
+              Domine as técnicas de maquiagem social, artística e para eventos,
+              com dicas de produtos e combinações de cores para diversas
+              ocasiões.
+            </p>
+          </div>
+        </section>
+
+        <!-- Curso Unhas -->
+        <section class="curso">
+          <img
+            src="arquivos/imagens/curso-corte-de-unha.png"
+            alt="Curso de Unhas"
+          />
+          <div class="curso-content">
+            <h3>Unhas</h3>
+            <p>
+              Curso completo de manicure, pedicure e técnicas de alongamento de
+              unhas, com foco em nail art e as últimas tendências do mercado.
+            </p>
+          </div>
+        </section>
+
+        <!-- Curso Depilação -->
+        <section class="curso">
+          <img
+            src="arquivos/imagens/curso-de-depilacao.png"
+            alt="Curso de Depilação"
+          />
+          <div class="curso-content">
+            <h3>Depilação</h3>
+            <p>
+              Técnicas seguras e eficientes de depilação com cera, linha e
+              outros métodos para garantir conforto e resultados duradouros aos
+              clientes.
+            </p>
+          </div>
+        </section>
+
+        <!-- Curso Massagem -->
+        <section class="curso">
+          <img
+            src="arquivos/imagens/curso-de-massagem.png"
+            alt="Curso de Massagem"
+          />
+          <div class="curso-content">
+            <h3>Massagem</h3>
+            <p>
+              Aprenda técnicas de massagem relaxante, terapêutica e estética,
+              proporcionando bem-estar físico e mental aos seus clientes.
+            </p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-info">
+        <span>
+          <strong>Onde estamos:</strong><br />
+          Av. Visconde de Suassuna, 500, Santo Amaro, Recife / PE. CEP:
+          50.050-540
+        </span>
+        <span>
+          <strong>Horário de funcionamento:</strong><br />
+          Segunda a sábado - 09h às 22h | Domingos e feriados: 12h às 21h
+        </span>
+      </div>
+      <p>&copy; Todos os Direitos Reservados - 2024</p>
+    </footer>
+  </body>
+</html>

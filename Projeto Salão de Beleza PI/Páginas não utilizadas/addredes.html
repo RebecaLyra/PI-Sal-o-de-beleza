@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beleza Aê</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      .content {
+        display: flex; /* Usando flexbox para layout lado a lado */
+        align-items: flex-start; /* Alinha os itens ao topo */
+        gap: 20px; /* Espaçamento entre os itens */
+      }
+
+      .content img {
+        width: 500px; /* Define a largura da imagem */
+        height: auto; /* Mantém a proporção da imagem */
+      }
+
+      .iframe-container {
+        flex: 1; /* Permite que o iframe ocupe o espaço restante */
+        height: 300px; /* Define a altura do iframe */
+        overflow: hidden; /* Oculta qualquer conteúdo extra */
+      }
+
+      iframe {
+        width: 100%; /* Largura total do iframe */
+        height: 100%; /* Altura total do iframe */
+        border: none; /* Remove a borda padrão do iframe */
+      }
+
+      .social-icons {
+        list-style: none; /* Remove a lista padrão */
+        padding: 0; /* Remove o padding */
+        display: flex; /* Exibe ícones em linha */
+        justify-content: center; /* Centraliza os ícones */
+        margin-top: 10px; /* Espaçamento superior */
+      }
+
+      .social-icons li {
+        margin: 0 10px; /* Espaçamento entre os ícones */
+      }
+
+      .social-icons a {
+        text-decoration: none; /* Remove o sublinhado dos links */
+        color: #333; /* Cor padrão dos ícones */
+        font-size: 24px; /* Tamanho dos ícones */
+        transition: color 0.3s; /* Transição suave para a cor */
+      }
+
+      .social-icons a:hover {
+        color: #007bff; /* Cor ao passar o mouse */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img
+          src="arquivos/imagens/logo.png"
+          alt="Logo Beleza Aê"
+          style="vertical-align: middle"
+        />
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="instrutores.html">Instrutores</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="agendamento.html">Agendamento</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2>Bem-vindo ao nosso salão!</h2>
+      <p>Seu estilo é nossa prioridade.</p>
+
+      <div class="content">
+        <img src="arquivos/imagens/imagem1.png" alt="Foto do INDEX" />
+        <div class="iframe-container">
+          <iframe src="cometarios-automaticos.html"></iframe>
+        </div>
+      </div>
+
+      <p>
+        No Beleza Aê, redefinimos o conceito de salão de beleza. Aqui, cada
+        visita é uma experiência única, onde inovação e estilo se encontram para
+        criar momentos inesquecíveis.
+      </p>
+    </section>
+    <footer>
+      <div class="footer-info">
+        <span>
+          <strong>Onde estamos:</strong><br />
+          Av. Visconde de Suassuna, 500, Santo Amaro, Recife / PE. CEP:
+          50.050-540
+        </span>
+        <span>
+          <strong>Horário de funcionamento:</strong><br />
+          Segunda a sábado - 09h às 22h | Domingos e feriados: 12h às 21h
+        </span>
+      </div>
+
+      <!-- Ícones de Redes Sociais -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.linkedin.com" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.whatsapp.com" target="_blank"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </li>
+      </ul>
+
+      <p>&copy; Todos os Direitos Reservados - 2024</p>
+    </footer>
+  </body>
+</html>
